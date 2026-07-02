@@ -7,7 +7,7 @@ export default function Vehicles(){
     const [vehicle_data, setVehicle] = useState([])
 
     useEffect(() => {
-      fetch('54.211.188.243:5000/api/vehicles/',{
+      fetch('54.211.188.243:5555/api/vehicles/',{
         method:"GET"
       })
       .then((res)=> res.json())

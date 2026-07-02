@@ -7,7 +7,7 @@ export default function Animal() {
     const [animal_data, setAnimal] = useState([])
 
     useEffect(() => {
-        fetch('54.211.188.243:5000/api/animals/', {
+        fetch('54.211.188.243:5555/api/animals/', {
             method: "GET"
         })
             .then((res) => res.json())
