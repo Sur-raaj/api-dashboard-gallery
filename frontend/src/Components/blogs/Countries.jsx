@@ -7,7 +7,7 @@ export default function Countries(){
     const [country_data, setCountry] = useState([])
 
     useEffect(() => {
-      fetch('http://127.0.0.1:5000/api/countries/',{
+      fetch('54.211.188.243:5000/api/countries/',{
         method:"GET"
       })
       .then((res)=> res.json())
